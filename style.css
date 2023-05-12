@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ============= header ============ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  height: 68px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #95E1D3;
+  padding: 17px 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+
+}
+
+.nav-item {
+  text-transform: uppercase;
+  color: #95E1D3;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 55px;
+}
+
+/* ============= main ============ */
+.work {}
+
+.work-subtitle {
+  font-family: 'Kaushan Script';
+  font-size: 28px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.23;
+  /* font-variant: all-small-caps; */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.work-line {
+  border: 2px solid #F38181;
+  max-width: 60px;
+  margin: 0 auto;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  margin: 0 60px;
+  width: calc((100% - 4 * 90px) / 3);
+
+}
+
+.work-item-title {}
+
+.work-item-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.47;
+  color: #B6B6B6;
+}
+
+/* ============= footer ============ */
